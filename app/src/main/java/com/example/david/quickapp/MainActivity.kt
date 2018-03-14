@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        title = "The Superb Calculator"
+        title = "The Basic Calculator"
 
         val plusButton = findViewById<Button>(R.id.plus)
         plusButton.setOnClickListener { setOp('+') }
