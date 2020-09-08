@@ -1,1 +1,1 @@
-# calc
+# Basic Android Calculator App
